@@ -26,7 +26,7 @@ const alive = async (m, Matrix) => {
     image.print(font, x, y, timeString, width, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
     const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
     
-    const uptimeMessage = `*🤖 KHAN-MD Status Overview*
+    const uptimeMessage = `*🤖 Reloaded Khan Status Overview*
 _________________________________________
 
 *📆 ${days} Day(s)*
